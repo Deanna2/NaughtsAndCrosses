@@ -43,8 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AggressivePlayer.cs" />
-    <Compile Include="ModifiedAlphaBetaPlayer.cs" />
-    <Compile Include="AlphaBetaPlayer.cs" />
+    <Compile Include="ModifiedMiniMaxPlayer.cs" />
+    <Compile Include="MinimaxPlayer.cs" />
     <Compile Include="CenterFirstPlayer.cs" />
     <Compile Include="CombinedStrategiesPlayer.cs" />
     <Compile Include="DefensivePlayer.cs" />

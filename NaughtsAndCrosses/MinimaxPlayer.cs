@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace NaughtsAndCrosses
 {
-    class AlphaBetaPlayer : Player
+    class MinimaxPlayer : Player
     {
-        public AlphaBetaPlayer(string name) : base(name) { }
+        public MinimaxPlayer(string name) : base(name) { }
 
 
 

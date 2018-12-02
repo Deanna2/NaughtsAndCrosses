@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace NaughtsAndCrosses
 {
-    class ModifiedAlphaBetaPlayer : AlphaBetaPlayer
+    class ModifiedMiniMaxPlayer : MinimaxPlayer
     {
-        public ModifiedAlphaBetaPlayer(string name) : base(name) { }
+        public ModifiedMiniMaxPlayer(string name) : base(name) { }
 
         public override GameMove MakeMove(GameState gs)
         {
