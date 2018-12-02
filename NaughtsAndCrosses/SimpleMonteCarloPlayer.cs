@@ -14,7 +14,7 @@ namespace NaughtsAndCrosses
 
         public SimpleMonteCarloPlayer(string name) : base(name) {
             RandomMe = new RandomPlayer("Random");
-            SmarterOpponent = new RandomPlayer("Smarty");
+            SmarterOpponent = new RandomPlayer("Smart");
         }
 
 

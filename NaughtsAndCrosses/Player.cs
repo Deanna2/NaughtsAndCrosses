@@ -9,6 +9,7 @@ namespace NaughtsAndCrosses
     abstract class Player
     {
         public abstract GameMove MakeMove(GameState gameState);
+
         public string Name { get; set; }
 
         public Player(string name)

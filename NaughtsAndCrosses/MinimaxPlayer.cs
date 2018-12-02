@@ -10,12 +10,8 @@ namespace NaughtsAndCrosses
     {
         public MinimaxPlayer(string name) : base(name) { }
 
-
-
         private GameSymbol PlayerSymbol { get; set; }
         
-
-
         private int GetUtilityOfTerminalState(PlayerUtilities.TerminalState state)
         {
             switch(state)
