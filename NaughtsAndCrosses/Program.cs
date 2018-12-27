@@ -8,6 +8,7 @@ namespace NaughtsAndCrosses
 {
     class Program
     {
+        // Test comment
         static void Main(string[] args)
         {
             var player1 = new CombinedStrategiesPlayer("Combined Strategies Player");
